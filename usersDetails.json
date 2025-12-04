@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1bebf4f5-8324-4bcb-bdba-b4d3ee9435df",
+    "name": "zara",
+    "email": "zara@gmail.com",
+    "password": "123456"
+  },
+  {
+    "id": "04d7c0ad-5080-4de4-bd7d-8959880d36c3",
+    "name": "Fatima",
+    "email": "zara@gmail.com",
+    "password": "123456"
+  },
+  {
+    "id": "191c9aa4-3abc-4442-bd45-1c38612aefbf",
+    "name": "Nabeel",
+    "email": "zara@gmail.com",
+    "password": "123456"
+  },
+  {
+    "id": "81b2dafa-2ccc-493d-aaa2-22f4d215b627",
+    "name": "zara",
+    "email": "zara@gmail.com",
+    "password": "$2b$10$hUmjzQdfzlNjggNuP8hC0ebM4ceutnZHjIoaFIu.mZnIBw98IiCWe"
+  },
+  {
+    "id": "8e783b82-f583-4617-8f92-b5b22820d2df",
+    "name": "zara",
+    "email": "zara@gmail.com",
+    "password": "$2b$10$iIFunIGLDgMxEP2zd9/OjenwetbUyNN5Z/xDgvh.VreZY/UZcjHHG"
+  },
+  {
+    "id": "7608f03b-7a20-4995-a3b4-6fbf330e5e6e",
+    "name": "zara",
+    "email": "zara@gmail.com",
+    "password": "$2b$10$lFIqsTJvirpJ32/BTz/zT.39dd0iEq7iqUqHgE.nKzCWt5RWHvQDS"
+  },
+  {
+    "id": "3356d5a4-cdb3-4093-8576-be98d991f324",
+    "name": "zari",
+    "email": "zara@gmail.com",
+    "password": "$2b$10$tVVbPpWdIFcy6v16UUnBauj1q22h8KmEr.CQk52PXV1yRRqzFcYvO"
+  },
+  {
+    "id": "8d9501c2-cd2e-493c-b8e6-98d3e111b4c4",
+    "name": "zari",
+    "email": "zara@gmail.com",
+    "password": "$2b$10$Tv1B7GFCsdenwn1bIqZxhO1jeiz8K3ytftUEiHKqqfUgsK4TF7s1W"
+  },
+  {
+    "id": "b5ff5159-75d6-432f-b91a-b08072240ca2",
+    "name": "zara",
+    "email": "zara@gmail.com",
+    "password": "$2b$10$Cb.AxDlji3HHEc1T1.HdjuVED4hVJroLSS5tnKDUQeMcglMvkJzmW"
+  },
+  {
+    "id": "80e4f1c5-bd04-48ec-981a-ecf9d48fcd27",
+    "name": "zara",
+    "email": "zara@gmail.com",
+    "password": "$2b$10$ErcN1LqQenvHAim4XCW0hueleN9n.L5epvK9INKHzPL8q0mp1x8vK"
+  },
+  {
+    "id": "e2bddeee-9f1b-4994-80d0-e6a09ca189e2",
+    "name": "zee",
+    "email": "zee@gmail.com",
+    "password": "$2b$10$.ZZ4tGrH2aBjI3IEOWZIX.QyXOzjUx4fu5pY2Pl5NT.7xqBuFyI1S"
+  }
+]
