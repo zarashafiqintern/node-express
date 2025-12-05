@@ -1,5 +1,5 @@
 {
-  "name": "node-express",
+  "name": "express",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,8 +13,19 @@
   "type": "commonjs",
   "dependencies": {
     "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^17.2.3",
     "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
     "nodemon": "^3.1.11",
     "uuid": "^13.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zarashafiqintern/node-express.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zarashafiqintern/node-express/issues"
+  },
+  "homepage": "https://github.com/zarashafiqintern/node-express#readme"
 }

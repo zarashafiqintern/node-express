@@ -4,6 +4,9 @@ const usersDetails = require("../usersDetails.json");
 const fs = require("fs");
 const bcrypt = require('bcrypt');
 const { v4: uuidv4 } = require('uuid');
+const jwt = require('jsonwebtoken');
+require('dotenv').config();
+const authenticateJWT = require("./middlewares/authenticateJWT");
 
 router.post('/userSignup', async (req, res) => {
     const hashedPassword = await bcrypt.hash(req.body.password,10);
@@ -32,43 +35,18 @@ router.post('/userLogin', async (req, res) => {
     if (!isPasswordValid) {
         return res.status(401).send({ message: "Invalid password" });
     }
+    const token = jwt.sign(
+        {id: user.id, email: user.email},
+        process.env.JWT_SECRET,
+        { expiresIn: '1h' } 
+    );
     return res.status(200).send({ 
-        message: "Login successful"
-     });
-});
-
-router.put("/update/:id", async (req, res) => {
-    const id = req.params.id;
-    const { password } = req.body;
-    const userIndex = usersDetails.findIndex(user => user.id === id);
-
-    if (userIndex === -1) {
-        return res.status(404).send({ message: "User not found" });
-    }
-
-    if (password) {
-        const hashedPassword = await bcrypt.hash(password, 10);
-        usersDetails[userIndex].password = hashedPassword;
-    }
-
-    fs.writeFile('./usersDetails.json', JSON.stringify(usersDetails), (err) => {
-        return res.status(200).send({
-            message: "User updated successfully",
-        });
+        message: "Login successful", token
     });
 });
 
-router.route("/userSignup/:id")
-.delete((req, res) => {
-    const id = req.params.id;
-    const userIndex = usersDetails.findIndex((user) => user.id === id);
-    if (userIndex === -1) {
-        return res.status(404).send("id not found")
-    }
-    const deletedUser = usersDetails.splice(userIndex, 1);
-    fs.writeFile('./usersDetails.json', JSON.stringify(usersDetails), (err) => {
-        return res.status(200).send(`delete successfully data`);
-    })
-})
+router.get('/profile', authenticateJWT, (req, res) => {
+    res.send({ message: `Hello ${req.user.email}, you can access this protected route!` });
+});
 
 module.exports = router;

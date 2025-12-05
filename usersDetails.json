@@ -64,5 +64,53 @@
     "name": "zee",
     "email": "zee@gmail.com",
     "password": "$2b$10$.ZZ4tGrH2aBjI3IEOWZIX.QyXOzjUx4fu5pY2Pl5NT.7xqBuFyI1S"
+  },
+  {
+    "id": "b66d2a54-2036-4b6f-a5a0-72d7f27cad7d",
+    "name": "Naila",
+    "email": "zee@gmail.com",
+    "password": "09876"
+  },
+  {
+    "id": "57593b84-3676-4a80-8323-af42fa5968cd",
+    "name": "Naa",
+    "email": "naa@gmail.com",
+    "password": "0123"
+  },
+  {
+    "id": "dcbf1587-37fa-4459-b07d-a38527025c75",
+    "name": "Naa1",
+    "email": "zee@gmail.com",
+    "password": "$2b$10$PxE62vbr7BUgPM2xXweSeOgRIAdA9fTPKuMHLSMWPEWI2MVFEf6oi"
+  },
+  {
+    "id": "706db6a0-9b30-4f30-8382-45b3189e6661",
+    "name": "Naa1",
+    "email": "zee@gmail.com",
+    "password": "$2b$10$ZH5PzwADaA8BLJgJHPWJwecbGyRBZ0NcOulrajUHIYrlNFNA24uUm"
+  },
+  {
+    "id": "6d6781cf-ecdf-4591-8c3c-ccae183059a6",
+    "name": "Naa1",
+    "email": "zee@gmail.com",
+    "password": "$2b$10$uvSwl/5FQD8eGoLj121apOdKV2bmbpFx5nPdoBVS9mnzkUpIg4q1G"
+  },
+  {
+    "id": "7c3bba20-92ed-466b-8005-e036b9d9dee6",
+    "name": "Naa1345678",
+    "email": "zee@gmail.com",
+    "password": "$2b$10$WAg6LzuRbGdGb6wS1V/E6Of4awHUw5LTsebjae6GInSu6OojB.J0i"
+  },
+  {
+    "id": "c39ac284-120a-4204-8175-bd2218bbb5eb",
+    "name": "nhgfyu",
+    "email": "zeedfg@gmail.com",
+    "password": "$2b$10$SdSH/8PGGjl6fxFeS/NQoe6ih1GwrxE8jAwTFOFgDXfagHLWeGnka"
+  },
+  {
+    "id": "853d366d-41c3-4469-993e-b80570a9d81f",
+    "name": "fati",
+    "email": "fati@gmail.com",
+    "password": "$2b$10$ooTDebCOs2q7qf2i27MU8uoX7mxznZdYkjQGkYneoiaNCtVzBB5aW"
   }
 ]
